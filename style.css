@@ -1,0 +1,17 @@
+/* style.css */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+#pokemon-img {
+  width: 250px;
+  height: 250px;
+  transition: filter 0.3s ease;
+}
+
+/* Esta clase convierte toda la imagen en una silueta negra */
+.silhouette {
+  filter: brightness(0);
+}
